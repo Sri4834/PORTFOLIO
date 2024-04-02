@@ -1,0 +1,105 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Correct font-family declaration */
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: #ffffff; /* Set text color to white */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+.profile-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
+    position: relative;
+}
+
+.profile-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Change text color to white */
+}
+
+nav a:hover {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5),
+    0 0 40px rgba(255, 255, 255, 0.5),  0 0 40px rgb(255, 255, 255); /* Add glow effect */
+}
+
+nav a span {
+    display: block;
+    font-size: 0.8rem;
+    color: #ffffff; /* Change text color to white */
+}
+
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#skills {
+    text-align: center;
+}
+
+/* Adjust the list style for the Skills section */
+#skills ul {
+    text-align: center;
+}
+
+/* Add padding to the list items to create proper indentation */
+#skills ul li {
+    display: inline-block;
+    margin: 0 45px
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 1rem;
+}
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
